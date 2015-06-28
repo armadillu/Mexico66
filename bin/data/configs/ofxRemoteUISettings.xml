@@ -1,0 +1,47 @@
+<OFX_REMOTE_UI>
+	<OFX_REMOTE_UI_V>2</OFX_REMOTE_UI_V>
+	<OFX_REMOTE_UI_PARAMS>
+		<P name="cloth" type="group"/>
+		<!-- # cloth ############################ -->
+		<P name="cloth_enabled" type="bool">0</P>
+		<P c0.red="255" c1.green="0" c2.blue="19" c3.alpha="255" name="cloth_color" type="color"/>
+		<P name="Sole" type="group"/>
+		<!-- # Sole ############################ -->
+		<P name="Sole_enabled" type="bool">1</P>
+		<P c0.red="0" c1.green="0" c2.blue="0" c3.alpha="255" name="Sole_color" type="color"/>
+		<P name="frontLeather" type="group"/>
+		<!-- # frontLeather ############################ -->
+		<P name="frontLeather_enabled" type="bool">0</P>
+		<P c0.red="255" c1.green="0" c2.blue="19" c3.alpha="255" name="frontLeather_color" type="color"/>
+		<P name="bumper" type="group"/>
+		<!-- # bumper ############################ -->
+		<P name="bumper_enabled" type="bool">0</P>
+		<P c0.red="255" c1.green="0" c2.blue="19" c3.alpha="255" name="bumper_color" type="color"/>
+		<P name="backCross" type="group"/>
+		<!-- # backCross ############################ -->
+		<P name="backCross_enabled" type="bool">0</P>
+		<P c0.red="255" c1.green="0" c2.blue="19" c3.alpha="255" name="backCross_color" type="color"/>
+		<P name="SecondaryLine" type="group"/>
+		<!-- # SecondaryLine ############################ -->
+		<P name="SecondaryLine_enabled" type="bool">1</P>
+		<P c0.red="0" c1.green="0" c2.blue="0" c3.alpha="255" name="SecondaryLine_color" type="color"/>
+		<P name="MainLine" type="group"/>
+		<!-- # MainLine ############################ -->
+		<P name="MainLine_enabled" type="bool">1</P>
+		<P c0.red="0" c1.green="0" c2.blue="0" c3.alpha="255" name="MainLine_color" type="color"/>
+		<P name="top Edge" type="group"/>
+		<!-- # top Edge ############################ -->
+		<P name="top Edge_enabled" type="bool">0</P>
+		<P c0.red="255" c1.green="128" c2.blue="0" c3.alpha="255" name="top Edge_color" type="color"/>
+		<P name="Tongue" type="group"/>
+		<!-- # Tongue ############################ -->
+		<P name="Tongue_enabled" type="bool">0</P>
+		<P c0.red="0" c1.green="0" c2.blue="0" c3.alpha="255" name="Tongue_color" type="color"/>
+		<P name="shoeLaces" type="group"/>
+		<!-- # shoeLaces ############################ -->
+		<P name="shoeLaces_enabled" type="bool">0</P>
+		<P c0.red="0" c1.green="0" c2.blue="0" c3.alpha="255" name="shoeLaces_color" type="color"/>
+	</OFX_REMOTE_UI_PARAMS>
+	<OFX_REMOTE_UI_SERVER_PORT>36607</OFX_REMOTE_UI_SERVER_PORT>
+	<OFX_REMOTE_UI_SERVER_ENABLED>1</OFX_REMOTE_UI_SERVER_ENABLED>
+</OFX_REMOTE_UI>
